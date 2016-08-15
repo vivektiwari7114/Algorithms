@@ -11,22 +11,22 @@ import java.util.List;
 public class ThreeStack {
 	private int stackSize = 5;
 	private int  stack[] = new int[stackSize * 3];
-	private int top[] = {0,0,0};
+	private int top[] = {-1,-1,-1};
 	
 	public void push(int stackNum, int val){
-		int index = stackNum * stackSize + top[stackNum];
-		if( index == ((stackNum + 1) *stackSize) ){
+		int index = stackNum * stackSize + top[stackNum]+1;
+		
+		if( index < 0 ){
 			System.out.println("Maximum Size reached");
 			return;
-		}		
+		}	
+		top[stackNum]++;
 		stack[index] = val;
-		top[stackNum]+=1;
+		
 	}
 	public void display(int stackNum){
 		
-		int val = top[stackNum];
-		int index = --val;
-		//System.out.println("Index "+index);
+		int index = top[stackNum];
 		while(index >= 0){
 		int logicalI = stackNum * stackSize + index;
 		int value = stack[logicalI];
@@ -34,11 +34,15 @@ public class ThreeStack {
 			index --;
 		}
 	}
+	public void pop(int stackNum){
+		int LogicalI = (stackSize * stackNum) + (top[stackNum]);
+		top[stackNum]--;
+		stack[LogicalI] = 0;
+	}
 	public int peek (int stackNum){
-		int index = top[stackNum];
-		int LogicalI = (stackSize * stackNum) + (--index);
-		int val = stack[LogicalI];
-		return val;
+		int LogicalI = (stackSize * stackNum) + (top[stackNum]);
+		return  stack[LogicalI];
+		
 	}
 	public static void main(String args[]){
 		ThreeStack st = new ThreeStack();
@@ -55,8 +59,12 @@ public class ThreeStack {
 		st.push(2, 131);
 		st.push(2, 140);
 		st.push(2, 180);
-		System.out.println(st.peek(2));
-		st.display(2);
+		//System.out.println(st.peek(2));
+		//st.display(2);
+		st.pop(0);
+		st.pop(1);
+		st.pop(0);
+		st.display(0);
 	}
 	
 
