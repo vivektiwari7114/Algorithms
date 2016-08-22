@@ -1,5 +1,10 @@
 package practise.com;
 
+/* Name: Binary Search  Implementation Class
+ * Parameters: Not Applicable
+ * Return :Not Applicable
+ * Function: Implement a Binary Search Tree
+ */
 public class ImplementBinarySearchTree {
 	private NodeT  head; 
 	
