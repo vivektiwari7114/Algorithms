@@ -6,7 +6,7 @@ import java.util.List;
 /* Name:Search Range
  * Parameters: List of String, Stringbuffer Variable, Left Counter, Right Counter
  * Return :Void
- * Function:Search a given element in the range
+ * Function:Search  given element in the range
  */
 public class SearchRange {
 	public static void main(String args[]){
