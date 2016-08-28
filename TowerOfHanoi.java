@@ -1,6 +1,11 @@
 package practise.com;
 
 import java.util.Stack;
+/* Name:Tower of Hanoi
+ * Parameters: List of String, Stringbuffer Variable, Left Counter, Right Counter
+ * Return :Void
+ * Function: Tower of Hanoi
+ */
 
 public class TowerOfHanoi {
 	private Stack<Integer> disks;
