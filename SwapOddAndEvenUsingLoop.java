@@ -15,7 +15,7 @@ public class SwapOddAndEvenUsingLoop {
 			str[i-1] = temp;
 		}
 		String res = new String(str);
-		System.out.println("Result is:"+Integer.parseInt(res, 2));
+		System.out.println("Result :"+Integer.parseInt(res, 2));
 		
 	}
 
