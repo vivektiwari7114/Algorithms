@@ -3,7 +3,7 @@ package practise.com;
 /* Name: Fibonacci implemetation iteration
  * Parameters: NA
  * Return :Void
- * Function:  Fibonacci implemetation iteration
+ * Function:  Fibonacci implemetation iteration with no additional buffers
  */
 
 public class FibonaaciLoop {
