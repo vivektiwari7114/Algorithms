@@ -5,7 +5,11 @@ import java.util.Arrays;
 import java.util.List;
 
 
-
+/* Name:Power Set
+ * Parameters: List of String, Stringbuffer Variable, Left Counter, Right Counter
+ * Return :Void
+ * Function: Implement Power Set of given set
+ */
 public class PowerSet {
 	public static void main(String args[]){
 		int s[] = {1,2};
