@@ -2,24 +2,27 @@ package practise.com;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 
-/* Name:Power Set
- * Parameters: List of String, Stringbuffer Variable, Left Counter, Right Counter
+/* Name: Power Set
+ * Parameters: NA
  * Return :Void
- * Function: Implement Power Set of given set
+ * Function:  Calculate Power Set
  */
+
 public class PowerSet {
 	public static void main(String args[]){
-		int s[] = {1,2};
+		int s[] = {1,2,2};
 		
-		List<List<Integer>> result = new ArrayList<List<Integer>>();
+		Set<List<Integer>> result = new HashSet<List<Integer>>();
 		
 		
 		for(int i=0; i< s.length; i++){
 			//System.out.println("fr "+result);
-			List<List<Integer>> temp = new ArrayList<List<Integer>>();
+			Set<List<Integer>> temp = new HashSet<List<Integer>>();
 			//System.out.println("fr2 "+result);
 			for(List<Integer> t : result)
 				 temp.add(new ArrayList<Integer>(t));
