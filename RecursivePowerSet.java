@@ -3,11 +3,12 @@ package practise.com;
 import java.util.List;
 import java.util.ArrayList;
 
-/* Name: Create a power set using recursion
+/* Name: PowerSet using recursion
  * Parameters: NA
  * Return :Void
- * Function:  Power set creation using recursion
+ * Function:  Calculate Power Set using recursion
  */
+
 public class RecursivePowerSet {
 	public static void main(String args[]){
 		//System.out.println("Hello");
