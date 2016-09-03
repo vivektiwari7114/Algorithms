@@ -18,12 +18,6 @@ public class MemoizationCoinChange {
 	for(int i =1; i < n+1; i++)
 		a[0][i] = 0;
 	
-	/*for(int i =0 ; i< m+1; i++){
-		System.out.println("");
-			for(int j=0; j < n+1;j++)
-					System.out.print(a[i][j] + " ");
-	}
-	System.out.println();*/
 	
 	for(int i = 1; i < m+1; i++){
 		for(int j = 1; j < n+1; j++){
