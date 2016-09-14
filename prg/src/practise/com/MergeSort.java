@@ -9,7 +9,7 @@ public class MergeSort {
 	
 	
 	public static void main(String args[]){
-		int a[] = {1,10,4,32,61,11,23,100};
+		int a[] = {5,3,2,1};
 		int low = 0;
 		int high = a.length - 1;
 		int temp[] = new int [a.length];
@@ -21,7 +21,7 @@ public class MergeSort {
 			
 	}
 	public  void mergeSort(int a[], int temp[], int low, int high){
-		if(low == high)
+		if(low >= high)
 			return;
 		int mid = low +(high -low)/2;
 		mergeSort(a, temp,  low, mid);
