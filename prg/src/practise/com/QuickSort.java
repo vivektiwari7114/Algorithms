@@ -2,7 +2,7 @@ package practise.com;
 
 public class QuickSort {
 	public static void main(String args[]){
-		int arr[] = { 9, 2, 4, 7, 3, 10};
+		int arr[] = { 4,3,2,1};
 		int low = 0;
 		int high = arr.length - 1;
 		
@@ -12,6 +12,8 @@ public class QuickSort {
 	}
 	public static void mergeSort(int arr[], int low , int high){
 		
+		
+		
 		if(arr == null || arr.length == 0 )
 				return;
 		if(low >= high)
@@ -19,7 +21,6 @@ public class QuickSort {
 		int left = low;
 		int right = high;
 		int pivot = arr[high];
-		//int pIndex = high;
 		while(left < right){
 			if(arr[left] > pivot && arr[right] < pivot){
 				int temp = arr[right];
@@ -37,12 +38,13 @@ public class QuickSort {
 		arr[left] = arr[high];
 		arr[high] = t;
 		
+		System.out.println("Value of Low and High is: "+low +" "+high);
+		System.out.println("");
+		for(int t1: arr)
+			System.out.print(t1 +" ");
+		
 		mergeSort(arr,low,left-1);
 		mergeSort(arr,left+1,high);
-		
-			
-			
-	
 		
 	}
 
