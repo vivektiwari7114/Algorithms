@@ -1,5 +1,10 @@
 package practise.com;
 
+/* Class Name: Quick Sort
+ * Parameters: NA
+ * Return :Sorted Array Usig Quick Sort ALgorithm
+ * Function: Sorted Array
+ */
 public class QuickSort {
 	public static void main(String args[]){
 		int arr[] = { 4,3,2,1};

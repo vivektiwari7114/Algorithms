@@ -1,5 +1,11 @@
 package practise.com;
 
+
+/* Class Name: Insertion Sort 
+ * Parameters: NA
+ * Return :Sorted Array Using Insertion Sort ALgorithm
+ * Function: Sorted Array
+ */
 public class InsertionSort {
 	public static void main(String args[]){
 		int arr[] = {5,8,1,3,9,6,100,12,300};
