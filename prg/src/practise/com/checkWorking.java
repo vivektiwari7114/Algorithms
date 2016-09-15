@@ -16,15 +16,10 @@ import javax.swing.plaf.synth.SynthSpinnerUI;
 public class checkWorking {
 	// Replace Space with %20 
 	public static void main(String args[]){
-		String str1 = "24";
-		String str2 = "61";
-		int l1= str1.length();
-		int l2= str2.length();
-		for(int i=0; i< l2; i++){
-			for(int j=0;j < l1; j++){
-				
-			}
-		}
+		
+		String str1 = "vivek";
+		String str2 = "abcde";
+		System.out.println(str1.compareTo(str2));
 	
 	
 	
