@@ -14,10 +14,13 @@ public class QuickSort {
 		
 		if(arr == null || arr.length == 0 )
 				return;
+		if(low >= high)
+			return;
 		int left = low;
 		int right = high;
 		int pivot = arr[high];
-		while(left < high){
+		//int pIndex = high;
+		while(left < right){
 			if(arr[left] > pivot && arr[right] < pivot){
 				int temp = arr[right];
 				arr[right] = arr[left];
@@ -30,6 +33,13 @@ public class QuickSort {
 			else
 				right--;
 		}
+		int t = arr[left];
+		arr[left] = arr[high];
+		arr[high] = t;
+		
+		mergeSort(arr,low,left-1);
+		mergeSort(arr,left+1,high);
+		
 			
 			
 	
