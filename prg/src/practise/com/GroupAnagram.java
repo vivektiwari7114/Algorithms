@@ -3,13 +3,16 @@ package practise.com;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 public class GroupAnagram {
 	public static void main(String args[]){
 		
 		List<List<String>> result = new ArrayList<List<String>>();
+		List<String> fin =  new ArrayList<String>();
 		String strs[] = {"cat", "dog", "tac", "god"};
 		Map<String, ArrayList<String>> map = new HashMap<String, ArrayList<String>>();
 		
@@ -27,6 +30,8 @@ public class GroupAnagram {
 	}
 		result.addAll(map.values());
 		System.out.println(result);
+		
+		
 		
 	}
 }
