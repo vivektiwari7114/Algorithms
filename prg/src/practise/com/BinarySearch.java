@@ -5,8 +5,8 @@ package practise.com;
 public class BinarySearch {
 	public static void main(String args[]){
 	// Given Input
-	int nums[]= {1,2,3,4,5};
-	int target = 5;
+	int nums[]= {3,1};
+	int target = 1;
 	int low = 0;
 	int high = nums.length -1;
 	binarySearch(low,high,nums,target);

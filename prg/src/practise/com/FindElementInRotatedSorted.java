@@ -16,7 +16,7 @@ public class FindElementInRotatedSorted {
 			System.exit(0);
 		}
 		//Check whether the left half is sorted or not
-		if(a[low] < a[mid]){
+		if(a[low] <= a[mid]){
 			if(key >= a[low] && key <= a[mid])
 				binarySearch(a,key, low,mid-1);
 			else
