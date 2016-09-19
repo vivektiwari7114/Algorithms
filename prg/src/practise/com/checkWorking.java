@@ -17,8 +17,8 @@ public class checkWorking {
 	// Replace Space with %20 
 	public static void main(String args[]){
 		
-		String str1 = "vivek";
-		String str2 = "abcde";
+		String str1 = "a";
+		String str2 = "v";
 		System.out.println(str1.compareTo(str2));
 	
 	
