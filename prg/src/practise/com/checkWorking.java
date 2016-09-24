@@ -16,10 +16,11 @@ import javax.swing.plaf.synth.SynthSpinnerUI;
 public class checkWorking {
 	// Replace Space with %20 
 	public static void main(String args[]){
-		int a = 40;
+		System.out.println("z".compareTo("a"));
+	/*	int a = 40;
 		int b = 1;
 		int c = multiplybyAddition(a, b);
-		System.out.println(c);
+		System.out.println(c);*/
 		
 }
 	public static int multiplybyAddition(int a, int b){
