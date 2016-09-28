@@ -13,12 +13,10 @@ public class Person {
 		a1= a;
 		n1 = n;
 	}
-	
+	//Deep copy using copy constructore
 	public Person(Person p){
-		Address  a2 = new Address(p.a1.aptNo, p.a1.street);
-		Name n2 = new Name (p.n1.fName,p.n1.lName);
-		this.a1 = a2;
-		this.n1 = n2;
+		this.a1 = new Address(p.a1);
+		this.n1 = new Name(p.n1);
 		
 	}
 public static void main(String args[]){
@@ -30,7 +28,7 @@ public static void main(String args[]){
 	
 	son.n1.fName = "Vivek";
 	
-	System.out.println(mother.n1.fName);
+	System.out.println(son.n1.fName);
 		
 	}
 	
@@ -44,6 +42,11 @@ class Address{
 		aptNo = a;
 		street = s;
 	}
+	//Copy Constructor
+	public Address(Address a){
+		this.aptNo = a .aptNo;
+		this.street = a.street;
+	}
 
 }
 class Name{
@@ -52,5 +55,10 @@ class Name{
 	public Name(String f, String l){
 		fName = f;
 		lName = l;
+	}
+	//Copy Constructor
+	public Name(Name n){
+		this.fName = n.fName;
+		this.lName=n.lName;
 	}
 }
