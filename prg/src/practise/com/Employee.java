@@ -11,6 +11,9 @@ public class Employee {
 		Student s1 = Student.getObject(12, "Tripti");
 		s1.print(s1);
 		
+		Student s2 = Student.getObject(42, "Janki");
+		s1.print(s2);
+		
 	}
 }
 
