@@ -10,10 +10,11 @@ public class TryAndCatch {
 	try {
 		
         // FileReader reads text files in the default encoding.
-		String fileName = "/Use/VivekTiwari/Desktop/NLP/temp.txt";
+		String fileName = "/Users/VivekTiwari/Desktop/NLP/temp.txt";
         FileReader fileReader =  new FileReader(fileName);
         BufferedReader bufferedReader = new BufferedReader(fileReader);
         bufferedReader.close();  
+        return ;
       
       
     }
