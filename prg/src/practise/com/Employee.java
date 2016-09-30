@@ -37,6 +37,7 @@ class Student{
 		this.sName = sName;
 	}
 	public static Student getObject(int roll, String name){
+		
 		return new Student(roll, name);
 	}
 	public static void  print(Student s1){
