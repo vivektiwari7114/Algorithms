@@ -13,7 +13,7 @@ public class Person {
 		a1= a;
 		n1 = n;
 	}
-	//Deep copy using copy constructore
+	//Deep copy using copy constructor
 	public Person(Person p){
 		this.a1 = new Address(p.a1);
 		this.n1 = new Name(p.n1);
