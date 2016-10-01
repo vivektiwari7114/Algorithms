@@ -1,5 +1,11 @@
 package practise.com;
 
+
+/* Bounded Generics 
+ * Parameters: NA
+ * Return :NA
+ * Function:Limit the type argument that can be pass to the generics
+ */
 public class GenericBounded {
 	public static void main(String args[]){
 		Box<Integer> b1 = new Box<Integer>(3,4,5);
