@@ -6,26 +6,30 @@ import java.io.IOException;
 
 public class TryAndCatch {
 	public static void main(String args[]){
-	
-	try {
-		
-        // FileReader reads text files in the default encoding.
-		String fileName = "/Users/VivekTiwari/Desktop/NLP/temp.txt";
-        FileReader fileReader =  new FileReader(fileName);
-        BufferedReader bufferedReader = new BufferedReader(fileReader);
-        bufferedReader.close();  
-        return ;
-      
-      
-    }
-    catch(IOException ex) {
-    	 
-    		ex.printStackTrace();
-    		
-    	}
-	finally{
-		System.out.println("I am exiting");
+		System.out.println(intgetVal());
 	}
+	
+	public static int intgetVal(){
+		int a =100;
+		 
+		try {
+		
+			
+		}
+	    catch(ArithmeticException ex) {
+	    	 
+	    	
+	    
+	    		
+	    	}
+		finally{
+			return 0;	
+		
+		}
+		
+		
+		
+		
 	}
 
 }
