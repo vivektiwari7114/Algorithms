@@ -1,5 +1,13 @@
 package practise.com;
 
+
+
+/* Name:Employee
+ * Parameters: NA
+ * Return :Employee Object
+ * Function:Create the object of the constructor is private
+ */
+
 public class Employee {
 	private int age;
 	private String name;

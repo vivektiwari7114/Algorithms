@@ -1,5 +1,10 @@
 package practise.com;
 
+/* Name: Read the last 10 lines in the file
+ * Parameters: NA
+ * Return :Read the last 10 lines in the file
+ * Function: Read the last 10 lines in the file
+ */
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
