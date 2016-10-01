@@ -1,5 +1,10 @@
 package practise.com;
 
+/* Basic Generic in java 
+ * Parameters: NA
+ * Return :NA
+ * Function:Working of Generics In Java 
+ */
 public class BasicGeneric {
 	public static void main(String args[]){
 		GenericExample<String> go = new GenericExample<String>("Hello");
