@@ -3,6 +3,11 @@ package practise.com;
 import java.util.HashSet;
 import java.util.Set;
 
+/* Bounded Word Composition: Brute Force 
+ * Parameters: NA
+ * Return :NA
+ * Function:To find whether the given string composed of words that are present in the dictionary
+ */
 public class WordComposition {
 	public static void main(String args []){
 		
