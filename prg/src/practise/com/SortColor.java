@@ -1,5 +1,11 @@
 package practise.com;
 
+
+/* Bounded Naive Method to implement Color sort algo
+ * Parameters: NA
+ * Return :NA
+ * Function:Given color implement color sorting algo
+ */
 import java.util.ArrayList;
 import java.util.List;
 
