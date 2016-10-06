@@ -9,6 +9,11 @@ import java.util.Map;
 import java.util.PriorityQueue;
 
 
+/* Bounded TopKNumber in an array
+ * Parameters: NA
+ * Return :NA
+ * Function:Given an array with list of number find the top k number
+ */
 
 public class TopKNumber {
 	public static void main(String args[]){
@@ -44,7 +49,7 @@ public class TopKNumber {
 		 List<Integer> lt = new ArrayList<Integer>();
 		 while(que.size() > 0)
 			 	lt.add(que.poll().key);
-		 Collections.reverse(lt);
+		
 		 System.out.println(lt);
 		
 	}
