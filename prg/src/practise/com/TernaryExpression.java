@@ -2,6 +2,11 @@ package practise.com;
 
 import java.util.Stack;
 
+/*Create a binary tree for the Ternary Expression
+ * Parameters: NA
+ * Return :NA
+ * Function:Given a conditional Statement . derive an equivalent binary tree
+ */
 public class TernaryExpression {
 	public static void main(String args[]){
 		String expr = "a?b?c?d:e:f:g";
