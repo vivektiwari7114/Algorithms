@@ -15,8 +15,8 @@ public class MaximumSubarrayProblem {
 		a[0] = 0;
 		
 		for(int i=0; i < l ; i++){
-			a[i+1]= Math.max(nums[i], nums[i] +a[i]);
-			res = Math.max(res, a[i+1]);
+			max= Math.max(nums[i], nums[i] +max);
+			res = Math.max(res, max);
 			
 			
 		}
