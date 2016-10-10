@@ -16,9 +16,9 @@ public class ShortestPath {
 		int n = 5;
 		int graphM[][]= {{0,2,0,0,8},
 						{2,0,9,0,3},
-						{0,9,0,4,1},
-						{0,0,4,0,6},
-						{8,3,1,6,0},
+						{0,9,0,0,1},
+						{0,0,0,0,0},
+						{8,3,1,0,0},
 						};
 		ShortestPath sp = new ShortestPath(5);
 		sp.Dijktras(graphM, 0);
@@ -48,11 +48,15 @@ public class ShortestPath {
 		dist[source] = 0;
 			for(int i=0; i< n; i++){
 					int u = findMinDistance(dist, status);
+					//To check that the given node is not connetced to anynode 
+					if(u != -1){    
 					status[u] = true;
 					for(int v = 0; v < n; v++){
 						if(graph[u][v] !=0 && status[v] != true && graph[u][v] + dist[u] < dist[v])
 							dist[v] = graph[u][v] + dist[u];
-			}
+						}
+					}
+					
 		}
 			
 			for(int a: dist)
