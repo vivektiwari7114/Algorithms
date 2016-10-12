@@ -1,5 +1,10 @@
 package practise.com;
 
+/* Name: Equilibrium Index
+ * Parameters: Not Applicable
+ * Return :Not Applicable
+ * Function: Given an array find the equilibrium index
+ */
 class EquilibriumIndex {
 	public static void main(String args[]){
 		int A[] = {0, -2147483648, -2147483648};
