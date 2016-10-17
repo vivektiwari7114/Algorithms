@@ -1,5 +1,11 @@
 package practise.com;
 
+/* Name: Tic Tac Toe
+ * Parameters: Not Applicable
+ * Return :Not Applicable
+ * Function: Implement Tic Tac Toe using adversial Technique to decrease memory requirements
+ */
+
 public class EfficientTicTacToe {
 	public static void main(String args[]){
 		TicTac t1 = new TicTac(3);
