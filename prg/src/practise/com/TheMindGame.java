@@ -5,6 +5,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/* Name: The Mind game
+ * Parameters: Not Applicable
+ * Return :Not Applicable
+ * Function: Guess number of hits and Psuedo hits in the the given array combination
+ */
+
 public class TheMindGame {
 	public static void main(String args[]){
 		String sol = "RYGB";
