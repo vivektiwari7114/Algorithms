@@ -27,7 +27,7 @@ public class topKusongBucketSort {
 		}
 		
 		
-		System.out.println(mp);
+		
 		ArrayList<Integer> bucket[] = new ArrayList[max + 1];
 		for(int i=0; i < bucket.length; i++)
 			bucket[i] = new ArrayList<Integer>();
@@ -40,13 +40,19 @@ public class topKusongBucketSort {
 			
 		}
 		
+		
+		
 		ArrayList<Integer> finalL = new ArrayList<Integer>();
 		for(int i= bucket.length - 1; i >=0; i--){
 			ArrayList<Integer>  tp = bucket[i];
-			for(int a : tp)
+			for(int a : tp){
 				finalL.add(a);
+				
+			}
 			
 		}
+		
+		
 		System.out.println(finalL.subList(0,k));
 		
 		
