@@ -1,5 +1,10 @@
 package practise.com;
 
+/* Name: Find Missing Char In String	
+ * Parameters: Not Applicable
+ * Return :Not Applicable
+ * Function: return the character which is missing in the string
+ */
 public class FindMissingChar {
 	public static void main(String args[]){
 		String s = "abcd";
