@@ -2,7 +2,7 @@ package practise.com;
 
 public class longestPalindrome {
 	public static void main(String args[]){
-		StringBuffer s = new StringBuffer("aba");
+		StringBuffer s = new StringBuffer("dabad");
 		int l = s.length();
 		int ans = 0;
 		StringBuffer finalString = new StringBuffer("");
