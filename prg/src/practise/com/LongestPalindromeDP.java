@@ -4,7 +4,7 @@ package practise.com;
 /* Name: Longest Palindrome
  * Parameters: Not Applicable
  * Return :Not Applicable
- * Function:Find Longest Palindrome BruteFOrce o(n^3)
+ * Function:Find Longest Palindrome o(n^2)
  */
 public class LongestPalindromeDP {
 	public static void main(String args[]){
