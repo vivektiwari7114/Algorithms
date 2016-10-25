@@ -1,5 +1,10 @@
 package practise.com;
 
+/* Name: Longest Palindrome Brute Force
+ * Parameters: Not Applicable
+ * Return :Not Applicable
+ * Function:Find Longest Palindrome BruteFOrce o(n^3)
+ */
 public class longestPalindrome {
 	public static void main(String args[]){
 		StringBuffer s = new StringBuffer("dabad");
