@@ -16,12 +16,28 @@ import javax.swing.plaf.synth.SynthSpinnerUI;
 public class checkWorking {
 	// Replace Space with %20 
 	public static void main(String args[]){
-		int i=0;
-		while(i < 100){
-		int k = (int)((Math.random() * 10) % 7);
-		System.out.println(k);
-	    i++;
-		}
+		
+		
+		Set<Integer> st = new HashSet<Integer>();
+		ArrayList<Integer> al = new ArrayList<Integer>();
+		st.add(1);
+		st.add(2);
+		st.add(9);
+		st.add(1);
+		st.add(2);
+		st.add(3);
+		st.add(1);
+		st.add(4);
+		st.add(1);
+		st.add(5);
+		st.add(7);
+		Iterator<Integer> it = st.iterator();
+		while(it.hasNext()){
+	       al.add(it.next());
+	     }
+		Collections.sort(al);
+		System.out.println(al);
+		
 	
 	}
 }
