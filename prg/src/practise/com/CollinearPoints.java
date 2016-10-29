@@ -2,6 +2,12 @@ package practise.com;
 
 import java.util.*;
 
+
+/* Bounded Collinear points 
+ * Parameters: NA
+ * Return :NA
+ * Function: Find Collinear points 
+ */
 public class CollinearPoints {
 	public static void main(String args[]){
 		PointsM p1[] = new PointsM[3];
