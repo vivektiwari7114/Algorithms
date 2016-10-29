@@ -1,5 +1,10 @@
 package practise.com;
 
+/* Name: Find Minimum Difference 
+ * Parameters: Not Applicable
+ * Return :Void
+ * Function: Given two arrays find minimum difference
+ */
 public final class SmallestDifference {
 	public static void main(String args[]){
 		int a[] = {1,3,15,11,2};
