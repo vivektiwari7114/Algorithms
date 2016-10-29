@@ -3,6 +3,13 @@ package practise.com;
 import java.util.HashMap;
 import java.util.Map;
 
+
+/* Bounded: Number of steps to convert from one anagram to another
+ * Parameters: NA
+ * Return :NA
+ * Function:Number of steps to convert from one anagram to another
+ */
+
 public class AnagramVariation {
 
 	public static void main(String[] args) {
