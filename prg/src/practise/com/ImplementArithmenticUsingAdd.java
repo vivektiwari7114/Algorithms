@@ -1,5 +1,11 @@
 package practise.com;
 
+
+/* Name:Implement arithmetic operator using only add
+ * Parameters: Not Applicable
+ * Return :Not Applicable
+ * Function: Implement arithmetic operator using only add
+ */
 public class ImplementArithmenticUsingAdd {
 	public static void main(String args[]){
 		int a = 2;
