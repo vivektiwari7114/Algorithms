@@ -5,6 +5,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+
+/* Bounded TopKNumber in an array
+ * Parameters: NA
+ * Return :NA
+ * Function:Given an array with list of number find the top k number in o(n) times
+ */
 public class topKusongBucketSort {
 	public static void main(String args[]){
 		int nums[] = {2,1,2,2,1,1,1,3,3};
