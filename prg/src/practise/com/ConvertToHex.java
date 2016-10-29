@@ -3,6 +3,11 @@ package practise.com;
 import java.util.ArrayList;
 import java.util.List;
 
+/* Bounded Convert to hex
+ * Parameters: NA
+ * Return :NA
+ * Function:Given an integer convert the number to hexadecimal equivalent
+ */
 public class ConvertToHex {
 	public static void main(String args[]){
 		int n = -1;
