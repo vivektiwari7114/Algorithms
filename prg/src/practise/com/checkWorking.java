@@ -7,19 +7,10 @@ public class checkWorking {
 	public static void main(String args[]){
 		
 		
-	Map<Integer,Integer> mp = new HashMap<Integer, Integer>();
-	mp.put(0,1);
-	mp.put(1,2);
-	mp.put(2,3);
+	String s1 = "a";
+	String s2 = "b";
 	
-	for(Integer k : mp.keySet())
-			System.out.println(k);
-			
-	
-	
-	
-	for(Integer k : mp.values())
-		System.out.println(k);
+	System.out.println(s1.compareTo(s2));
 		
 
 
