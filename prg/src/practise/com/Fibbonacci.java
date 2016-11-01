@@ -3,12 +3,12 @@ package practise.com;
 public class Fibbonacci {
 	
 	public static void main(String args[]){
-		int n =67;
+		int n =6;
 		System.out.println("Result is: "+fibbonacciNumber(n));
 	}
 	public static int fibbonacciNumber(int n){
 		if(n==1)
-				return 0;
+				return 1;
 		if(n==2)
 				return 1;
 		if (n > 0) 

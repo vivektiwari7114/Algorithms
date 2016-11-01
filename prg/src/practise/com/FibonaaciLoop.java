@@ -9,11 +9,11 @@ package practise.com;
 public class FibonaaciLoop {
 	
 	public static void main(String args[]){
-		int n =9;
+		int n =5;
 		System.out.println("Result is: "+fibbonacciNumber(n));
 	}
 	public static int fibbonacciNumber(int n){
-		int a = 0;
+		int a = 1;
 		int b = 1;
 		int c =0;
 		if(n==1)
