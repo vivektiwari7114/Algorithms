@@ -9,7 +9,7 @@ package practise.com;
 public class CoinChangeDP {
 	public static void main(String args[]){
 		int s[] = {1,2,3};
-		int amount = 4;
+		int amount = 5;
 		int noOfCoins = s.length;
 		System.out.println(getNumberOfWays(s, noOfCoins, amount));
 		
