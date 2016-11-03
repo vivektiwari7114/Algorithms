@@ -10,8 +10,8 @@ public class checkWorking {
 	String s1 = "a";
 	String s2 = "b";
 	
-	System.out.println(s1.compareTo(s2));
-		
+	int t = "a".compareTo("b");
+	System.out.println(t);
 
 
 }
