@@ -13,7 +13,7 @@ public class FindElementInRotatedSorted {
 		int mid = low + (high - low)/2;
 		if(a[mid] == key){
 			System.out.println("Index is: "+mid);
-			System.exit(0);
+			return;
 		}
 		//Check whether the left half is sorted or not
 		if(a[low] <= a[mid]){
