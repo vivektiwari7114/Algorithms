@@ -1,5 +1,9 @@
 package practise.com;
-// Brute Force Solution
+/* Brute Force Coin Change
+ * Parameters: NA
+ * Return :NA
+ * Function:Total Number of ways to count the number of ways for making change
+ */
 public class CoinCHange {
 	public static void main(String args[]){
 		int total = 5;
