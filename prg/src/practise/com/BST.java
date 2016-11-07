@@ -1,5 +1,10 @@
 package practise.com;
 
+/* Implement Min Stack Implementation
+ * Parameters: NA
+ * Return :NA
+ * Function:Implement Min Stack in an Efficient way
+ */
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
