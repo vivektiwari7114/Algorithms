@@ -1,5 +1,10 @@
 package practise.com;
 
+/* Coin Chnage Dynamic problem
+ * Parameters: NA
+ * Return :NA
+ * Function:Coin Chnage Dynamic Problem solution
+ */
 public class CoinnChange {
 
 	public static void main(String[] args) {
