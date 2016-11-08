@@ -1,5 +1,11 @@
 package practise.com;
 
+
+/* Name: Find the Equilibrium Index in an array
+ * Parameters: Not Applicable
+ * Return :Not Applicable
+ * Function: Find the euilibrium index in ana array
+ */
 public class EquilibriumIndexEfficient {
 
 	public static void main(String[] args) {
