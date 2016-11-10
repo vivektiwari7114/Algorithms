@@ -8,8 +8,8 @@ package practise.com;
 public class CoinnChange {
 
 	public static void main(String[] args) {
-		int amount = 10;
-		int coins [] = {2,3,5,6};
+		int amount = 4;
+		int coins [] = {1,2,3};
 		int data[][] = new int [coins.length + 1][amount +1];
 		
 		for(int i=0; i <= coins.length; i++)
@@ -26,6 +26,15 @@ public class CoinnChange {
 			}
 		}
 		System.out.println(data[coins.length][amount]);
+		
+	int i = coins.length;
+	int j = amount-1;
+	int sum = 0;
+	while(j >=0){
+		sum = sum + data[i][j];
+		j--;
+	}
+	System.out.println(sum);
 	}
 
 }
