@@ -20,10 +20,11 @@ public class MatrixMultiplication {
 		
 		for(int i=0; i < rowA; i++){
 			for(int j=0; j<colB;j++){
-				data[i][j] = 0;
-				for(int k=0; k< colA;k++)
-						data[i][j] = data[i][j] + A[i][k] * B[k][j]; 
-			}
+						data[i][j] = 0;
+						for(int k=0; k< colA;k++)
+								data[i][j] = data[i][j] + A[i][k] * B[k][j]; 
+				 }
+			
 		}
 		for(int i=0; i < rowA; i++){
 			for(int j=0; j<colB;j++){
