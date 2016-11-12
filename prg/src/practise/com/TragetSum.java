@@ -1,6 +1,11 @@
 package practise.com;
 import java.util.*;
 
+/*Target Sum (Maximum length of the continuos Target Sum)
+ * Parameters: NA
+ * Return :NA
+ * Function: Target Sum
+ */
 public class TragetSum {
 
 	public static void main(String[] args) {
@@ -14,7 +19,7 @@ public class TragetSum {
 	        for (int i = 1; i < n; i++)
 	            nums[i] += nums[i - 1];
 	       /* for(int x : nums)
-	        		System.out.println(x + " ");*/
+	        		System.out.println(x + " ");*/  
 	        Map<Integer, Integer> map = new HashMap<>();
 	        map.put(0, -1); // add this fake entry to make sum from 0 to j consistent
 	        int max = 0;
