@@ -26,6 +26,17 @@ public class DecodingWays {
 				dp[0] = 1;
 			
 		}
+		
+		for(int i= 2; i < l; i++){
+			if(s.charAt(i) != '0')
+					dp[i] += dp[i-1];
+			
+			int n = Integer.parseInt(s.substring(i-1,i+1));
+			if( n >= 10 && n <= 26 )
+					dp[i] += dp[i-2];
+		}
+		
+		System.out.println();
 
 	}
 
