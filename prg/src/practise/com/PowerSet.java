@@ -33,13 +33,13 @@ public class PowerSet {
 			tmp.add(s[i]);
 			temp.add(tmp);
 			result.addAll(temp);
-			System.out.println(result);
+			//System.out.println(result);
 			
 			
 		}
 		result.add(new ArrayList<Integer>());
 		//System.out.println(result);
-		
+		System.out.println(result);
 		
 	}
 
