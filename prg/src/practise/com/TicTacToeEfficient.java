@@ -5,10 +5,13 @@ public class TicTacToeEfficient {
 		TicTacEfficient gB = new TicTacEfficient(3);
 		
 		
-		
+		gB.move(0, 0, 1);
+		gB.move(0, 1, 1);
+		gB.move(0, 2, 1);
 		
 	
-		gB.move(0, 0, 1);
+		/*
+		  gB.move(0, 0, 1);
 		gB.move(0, 2, 2);
 		gB.move(1, 1, 1);
 		gB.move(1, 2, 2);
@@ -17,11 +20,7 @@ public class TicTacToeEfficient {
 		gB.move(2, 2, 1);
 		gB.move(0, 0, 1);
 		gB.move(0, 2, 2);
-		
-		
-		
-		
-		
+		*/
 	}
 
 }
@@ -49,10 +48,19 @@ class TicTacEfficient {
 		// 1 Represent X and 2 represent O
 		++moves;
 		int curr = (state == 1? 1: -1);
-		
+		if(board[x][y] != 0){
+			return ;
+		}
+		if(board[x][y] == state){
+			return ;
+		}
+		board[x][y] = state;
 		//System.out.println(curr);
 		row[x] += curr;
 		col[y] += curr;
+		
+		//System.out.println(moves);
+		
 		
 		if(x == y)
 			diag += curr;
@@ -61,23 +69,23 @@ class TicTacEfficient {
 			antiDiag += curr;
 		
 		for(int i=0; i < n ; i++){
-			if(row[i] == n){
+			if(Math.abs(row[i]) == n){
 				System.out.println("Player Wins" + state);
 				System.exit(0);
 			}
-			if(col[i] == n){
+			if(Math.abs(col[i]) == n){
 				System.out.println("Player Wins" + state);
 				System.exit(0);
 			}
 		}
 		
-		if(diag == 3){
+		if(Math.abs(diag) == n){
 			System.out.println("Player Wins" + state);
 			System.exit(0);
 			
 		}
 		
-		if(antiDiag == 3){
+		if(Math.abs(antiDiag) == n){
 			System.out.println("Player Wins" + state);
 			System.exit(0);
 			
