@@ -13,8 +13,8 @@ import java.util.Map;
 
 public class TheMindGame {
 	public static void main(String args[]){
-		String sol = "RYGB";
-		String guess = "YRBG";
+		String sol = "YYGB";
+		String guess = "GGGB";
 		Map<Character,Integer> m1 = new HashMap<Character,Integer>();
 		List<Character> l1 = new ArrayList<Character>();
 		
