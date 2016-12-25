@@ -11,7 +11,7 @@ public class RandomShuffleArray {
 
 	public static void main(String[] args) {
 		//Object array[] = {'a','b','c','d','e'};
-		Object array[] = {"a","b","c","d","e"};
+		Object  array[] = {"a","b","c","d","e"};
 		RandomShuffleArray.shuffle(array);
 		
 
