@@ -5,16 +5,19 @@ import java.util.Random;
 public class RandomNumber {
 	public static void main(String args[]){
 		
-		
-		int num = 5 * (returnRandomFive() + returnRandomFive() );
-			System.out.println(num%7 + 1);
+			int x = random5()  + (5 * random5() ) - 5;
+			System.out.println(x);
+			while (x > 21);
+			
+			
+			System.out.println(x % 7 + 1);
+			
 			
 		
+		
 	}
-	public static int returnRandomFive(){
+	public static  int random5(){
 		Random rm = new Random();
-		return ( (rm.nextInt(5) % 5 ) + 1 );
-	
+		return rm.nextInt(5); 
 	}
-
 }
