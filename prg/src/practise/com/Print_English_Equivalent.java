@@ -19,17 +19,12 @@ public class Print_English_Equivalent {
 		String fourth [] = {"", "hundred", "thousand"};
 		
 		int len = Integer.toString(num).length();
-		int temp;
+		int tmp;
 		if(num == 0)
 			return "zero";
 		if( len > 3 && len % 2 == 0 )
 			len++;
 		
-		do{
-			if(len > 3 ){
-				
-			}
-		}
 		
 
 		
