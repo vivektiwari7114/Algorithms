@@ -24,6 +24,7 @@ public class RandomShuffleArray {
 		
 		for(int i=0; i < length; i++){
 			int randomNumber = rm.nextInt(length);
+			System.out.println(randomNumber);
 			Object temp = array[randomNumber];
 			array[randomNumber] = array[i];
 			array[i] = temp;
