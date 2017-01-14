@@ -12,6 +12,7 @@ public class RandomNumber_EqualProbablity {
 		
 		for(int i = len; i >0; i--){
 			int index = rm.nextInt(i);
+			System.out.println(i);
 			System.out.println(index);
 			int temp = arr[index];
 			arr[index] = arr[i-1];
