@@ -21,7 +21,6 @@ public class CountNumberOfTwo {
 		int first = n / power;
 		int rem = n % power;
 		int firstCount =0;
-		
 		if(first > 2){
 			firstCount = power;
 		}else if(  first == 2){
