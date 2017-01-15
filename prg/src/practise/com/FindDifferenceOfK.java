@@ -6,7 +6,7 @@ import java.util.Set;
 public class FindDifferenceOfK {
 	public static void main(String args[]){
 		int input[] = {1,5,3,4,2};
-		int k = 3;
+		int k = 10;
 		
 		
 		Set<Integer> st = new HashSet<Integer>();
@@ -24,6 +24,9 @@ public class FindDifferenceOfK {
 		}
 		
 		System.out.println(count);
+		
+		
+		
 		
 		
 		
