@@ -7,13 +7,8 @@ public class checkWorking {
 	public static void main(String args[]){
 		
 		
-		
-		Random rm = new Random();
-		for(int i=0; i < 10; i++){
-			System.out.println(rm.nextInt(2));
-		}
-		
-		
+		char a = 'a';
+		System.out.println( (char)(a + 25));
 		
 		
 	
