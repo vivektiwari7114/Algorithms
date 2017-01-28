@@ -9,9 +9,8 @@ public class Overriding {
 		Van van2 = new Van();
 		van2.move();*/
 		
-		Van v1 = (Van)new Vehicle();
-		v1.myName();
-		
+		Vehicle v1 = new Van();
+		v1.move();
 	}
 
 }
@@ -21,20 +20,16 @@ class Vehicle {
 		System.out.println("Vehicle Class");
 	
 	}
-	public void print(){
-		System.out.println("Print");
-	}
+	
 }
 
 class Van extends Vehicle {
 	public void move(){
+		super.move();
 		System.out.println("Van Class");
 		
 	}
 	
-	public void myName(){
-		System.out.println("Vivek");
-		
-	}
+	
 	
 }
