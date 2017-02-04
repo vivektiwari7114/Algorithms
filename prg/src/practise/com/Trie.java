@@ -33,10 +33,21 @@ public class Trie {
 			return root.end == true;
 		}
 		char ch = word.charAt(step);
-		if(root.children.get(ch) != null){
-			return searchRecur(root.children.get(ch), step + 1, word);
+		if(ch != '.'){
+			if(root.children.get(ch) != null){
+				return searchRecur(root.children.get(ch), step + 1, word);
+			}
+		}else{
+			for(Map.Entry<Character, TrieNode> mp : root.children.entrySet()){
+				boolean status = searchRecur(mp.getValue(), step+1, word);
+				//System.out.println(status);
+				return status;
+				
+			}
+			
 		}
-		return false;
+			
+			return false;
 		
 		
 	}
@@ -58,13 +69,11 @@ public class Trie {
 		// TODO Auto-generated method stub
 		
 		Trie curr = new Trie();
-		curr.insert("vivek");
-		curr.insert("viv");
-		System.out.println("vivek " + curr.check("vivek"));
-		System.out.println("vivf " + curr.check("vivf"));
-		System.out.println("viv " + curr.check("viv"));
-		System.out.println("abc " + curr.check("abc"));
-
+		curr.insert("bad");
+		curr.insert("dad");
+		curr.insert("mad");
+		System.out.println("bad " + curr.check("..d"));
+		
 	}
 
 }
