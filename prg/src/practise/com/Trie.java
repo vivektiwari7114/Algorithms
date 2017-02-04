@@ -23,6 +23,23 @@ public class Trie {
 		}
 		curr.end = true;
 	}
+	public boolean check(String word){
+		return searchRecur(root, 0, word);
+	}
+	
+	public boolean searchRecur (TrieNode root, int step, String word){
+		
+		if(step  == word.length()){
+			return root.end == true;
+		}
+		char ch = word.charAt(step);
+		if(root.children.get(ch) != null){
+			return searchRecur(root.children.get(ch), step + 1, word);
+		}
+		return false;
+		
+		
+	}
 	
 	public boolean search (String word){
 		TrieNode curr = root;
@@ -43,10 +60,10 @@ public class Trie {
 		Trie curr = new Trie();
 		curr.insert("vivek");
 		curr.insert("viv");
-		System.out.println("vivek " + curr.search("vivek"));
-		System.out.println("vivf " + curr.search("vivf"));
-		System.out.println("viv " + curr.search("viv"));
-		System.out.println("abc " + curr.search("abc"));
+		System.out.println("vivek " + curr.check("vivek"));
+		System.out.println("vivf " + curr.check("vivf"));
+		System.out.println("viv " + curr.check("viv"));
+		System.out.println("abc " + curr.check("abc"));
 
 	}
 
