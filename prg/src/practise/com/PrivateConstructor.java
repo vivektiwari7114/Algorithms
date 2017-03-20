@@ -1,4 +1,4 @@
-package snappractise;
+package practise.com;
 
 public class PrivateConstructor {
 	public static void main(String args[]){

@@ -1,4 +1,4 @@
-package snappractise;
+package practise.com;
 
 public class ImplementTowerOfHanoi {
 	public static void main(String args[]){

@@ -1,4 +1,4 @@
-package snappractise;
+package practise.com;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package snappractise;
+package practise.com;
 
 public class StackInArray {
 	NodeStack store[] = new NodeStack[15];

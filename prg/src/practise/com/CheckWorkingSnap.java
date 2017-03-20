@@ -1,4 +1,4 @@
-package snappractise;
+package practise.com;
 
 public class CheckWorkingSnap {
 	public static void main(String args[]){
