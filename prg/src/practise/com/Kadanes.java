@@ -11,7 +11,7 @@ package practise.com;
  */
 public class Kadanes {
 	public static void main(String args[]){
-		int a[] = {0,0,0,0,1};
+		int a[] = {};
 		
 		int currSum =0, max = Integer.MIN_VALUE;
 		int start = 0, end =0;
