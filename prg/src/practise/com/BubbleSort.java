@@ -1,5 +1,13 @@
 package practise.com;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+import java.util.stream.Collectors;
+
+import sun.reflect.generics.tree.IntSignature;
+
 /* Class Name : BubbleSort
  * Parameters: NA
  * Return :Sorted Array In Decreasing Order
@@ -10,17 +18,9 @@ public class BubbleSort {
 		int a[] = {10,4,6,3,2,1,};
 		int l = a.length;
 		
-		for(int i =0 ; i < l-1; i++){
-			for(int j=0; j< l-1-i;j++){
-				if(a[j] > a[j+1]){
-					int temp = a[j];
-					a[j] = a[j+1];
-					a[j+1] = temp;
-				}
-			}
-		}
-		for(int x : a)
-				System.out.print(x+  " ");
+		
+		
+	
 		
 	}
 
