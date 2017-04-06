@@ -1,6 +1,6 @@
 ----------------------------------------
-Begin PBS Prologue Tue Mar 21 22:12:17 PDT 2017
-Job ID:            23008796.hpc-pbs1.hpcc.usc.edu
+Begin PBS Prologue Thu Mar 23 22:15:12 PDT 2017
+Job ID:            23025302.hpc-pbs1.hpcc.usc.edu
 Username:          bondi
 Group:             csci-ar
 Project:           default
@@ -10,8 +10,8 @@ Shared Access:     no
 All Cores:         no
 Has MIC:           no
 Nodes:             hpc1051 
-TMPDIR:            /tmp/23008796.hpc-pbs1.hpcc.usc.edu
-End PBS Prologue Tue Mar 21 22:12:18 PDT 2017
+TMPDIR:            /tmp/23025302.hpc-pbs1.hpcc.usc.edu
+End PBS Prologue Thu Mar 23 22:15:14 PDT 2017
 ----------------------------------------
 ******************************************************************************
 METIS 5.0 Copyright 1998-13, Regents of the University of Minnesota
@@ -19,7 +19,7 @@ METIS 5.0 Copyright 1998-13, Regents of the University of Minnesota
  size of idx_t: 32bits, real_t: 32bits, idx_t *: 64bits
 
 Graph Information -----------------------------------------------------------
- Name: /home/rcf-40/bondi/METIS_V2/src/e10p65net1heal.txt, #Vertices: 73, #Edges: 74, #Parts: 4
+ Name: /home/rcf-40/bondi/METIS_V2/src/e10p65net1heal.txt, #Vertices: 67, #Edges: 61, #Parts: 4
 
 Options ---------------------------------------------------------------------
  ptype=kway, objtype=cut, ctype=shem, rtype=greedy, iptype=metisrb
@@ -27,56 +27,1692 @@ Options ---------------------------------------------------------------------
  seed=-1, niter=10, ncuts=1
 
 Direct k-way Partitioning ---------------------------------------------------
- - Edgecut: 6, communication volume: 6.
+ - Edgecut: 4, communication volume: 4.
 
  - Balance:
-     constraint #0:  1.096 out of 0.055
+     constraint #0:  1.075 out of 0.060
 
  - Most overweight partition:
-     pid: 3, actual: 20, desired: 18, ratio: 1.10.
+     pid: 2, actual: 18, desired: 16, ratio: 1.07.
 
- - Subdomain connectivity: max: 2, min: 0, avg: 1.00
+ - Subdomain connectivity: max: 1, min: 0, avg: 0.50
 
- - The original graph had 9 connected components and the resulting
+ - The original graph had 10 connected components and the resulting
    partitioning after removing the cut edges has 12 components.
 Timing Information ----------------------------------------------------------
-  I/O:          		   0.000 sec
-  Partitioning: 		   0.002 sec   (METIS time)
+  I/O:          		   0.001 sec
+  Partitioning: 		   0.001 sec   (METIS time)
   Reporting:    		  -0.000 sec
 
 Memory Information ----------------------------------------------------------
-  Max memory used:		   0.059 MB
+  Max memory used:		   0.057 MB
 ******************************************************************************
-18 18 0
-18 18 0
+15 15 0
 17 17 0
-20 20 0
+18 18 0
+16 16 0
 Initialising fast UCB table... done
 Initialising fast UCB table... done
 Initialising fast UCB table... done
 Initialising fast UCB table... done
-Action in time step 0 : 12 20 56 70 
+Action in time step 0 : 2 7 19 41 
 Initial val: 0
 NumNodes set: 4
-18 18 1
-18 18 1
+15 15 1
 17 17 1
-20 20 1
+18 18 1
+16 16 1
 Initialising fast UCB table... done
 Initialising fast UCB table... done
 Initialising fast UCB table... done
 Initialising fast UCB table... done
-Action in time step 1 : 3 19 30 44 
+Action in time step 1 : 14 17 20 55 
 Initial val: 10
 NumNodes set: 14
-18 18 2
-18 18 2
+15 15 2
 17 17 2
-20 20 2
+18 18 2
+16 16 2
 Initialising fast UCB table... done
 Initialising fast UCB table... done
 Initialising fast UCB table... done
 Initialising fast UCB table... done
-Action in time step 2 : 11 26 27 63 
+Action in time step 2 : 23 32 46 65 
+Initial val: 24
+NumNodes set: 28
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 26 50 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 16 19 36 55 
+Initial val: 7
+NumNodes set: 11
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 28 34 47 65 
+Initial val: 19
+NumNodes set: 22
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 19 52 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 28 57 63 67 
+Initial val: 10
+NumNodes set: 14
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 5 23 24 34 
+Initial val: 23
+NumNodes set: 27
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 19 41 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 26 58 63 64 
+Initial val: 13
+NumNodes set: 17
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 18 42 56 65 
+Initial val: 28
+NumNodes set: 32
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 19 45 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 16 28 32 55 
+Initial val: 11
+NumNodes set: 15
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 14 23 61 65 
+Initial val: 23
+NumNodes set: 27
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 14 19 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 16 28 41 55 
+Initial val: 10
+NumNodes set: 14
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 6 50 58 65 
+Initial val: 23
+NumNodes set: 27
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 26 54 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 14 23 38 55 
+Initial val: 9
+NumNodes set: 13
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 17 18 19 65 
 Initial val: 21
 NumNodes set: 25
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 28 50 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 19 38 40 45 
+Initial val: 6
+NumNodes set: 10
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 42 51 56 65 
+Initial val: 20
+NumNodes set: 23
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 9 19 51 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 28 32 38 55 
+Initial val: 13
+NumNodes set: 17
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 42 56 64 65 
+Initial val: 25
+NumNodes set: 28
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 7 19 38 41 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 4 10 18 65 
+Initial val: 10
+NumNodes set: 14
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 20 30 34 58 
+Initial val: 22
+NumNodes set: 25
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 28 34 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 19 33 55 56 
+Initial val: 9
+NumNodes set: 13
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 23 38 54 65 
+Initial val: 21
+NumNodes set: 25
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 19 54 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 23 38 40 50 
+Initial val: 10
+NumNodes set: 14
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 5 28 35 47 
+Initial val: 25
+NumNodes set: 29
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 19 36 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 16 26 40 67 
+Initial val: 9
+NumNodes set: 13
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 23 47 62 65 
+Initial val: 19
+NumNodes set: 23
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 19 32 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 10 47 62 63 
+Initial val: 9
+NumNodes set: 13
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 11 23 34 38 
+Initial val: 22
+NumNodes set: 26
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 11 16 19 34 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 4 23 33 40 
+Initial val: 7
+NumNodes set: 11
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 7 20 58 62 
+Initial val: 19
+NumNodes set: 22
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 7 28 33 38 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 4 19 50 55 
+Initial val: 7
+NumNodes set: 11
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 36 39 42 56 
+Initial val: 20
+NumNodes set: 24
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 28 62 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 19 40 51 59 
+Initial val: 6
+NumNodes set: 10
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 23 54 57 65 
+Initial val: 20
+NumNodes set: 24
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 19 62 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 17 28 55 67 
+Initial val: 11
+NumNodes set: 15
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 24 41 42 65 
+Initial val: 23
+NumNodes set: 27
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 28 54 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 17 19 36 39 
+Initial val: 9
+NumNodes set: 13
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 23 51 56 65 
+Initial val: 22
+NumNodes set: 26
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 18 28 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 23 30 46 67 
+Initial val: 10
+NumNodes set: 14
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 19 54 57 65 
+Initial val: 19
+NumNodes set: 23
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 11 14 28 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 16 19 51 65 
+Initial val: 4
+NumNodes set: 8
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 9 42 56 64 
+Initial val: 15
+NumNodes set: 19
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 9 19 64 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 17 18 27 42 
+Initial val: 11
+NumNodes set: 15
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 10 14 47 65 
+Initial val: 25
+NumNodes set: 28
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 9 26 54 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 7 23 38 64 
+Initial val: 9
+NumNodes set: 13
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 19 37 39 62 
+Initial val: 21
+NumNodes set: 24
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 19 34 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 10 17 35 55 
+Initial val: 7
+NumNodes set: 11
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 5 28 32 59 
+Initial val: 20
+NumNodes set: 24
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 2 7 19 32 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 20 33 38 63 
+Initial val: 10
+NumNodes set: 14
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 8 42 54 65 
+Initial val: 22
+NumNodes set: 25
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 19 33 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 28 34 39 58 
+Initial val: 10
+NumNodes set: 14
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 20 38 54 66 
+Initial val: 23
+NumNodes set: 27
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 18 19 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 28 40 46 64 
+Initial val: 9
+NumNodes set: 13
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 16 42 54 65 
+Initial val: 22
+NumNodes set: 26
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 19 54 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 20 38 63 64 
+Initial val: 13
+NumNodes set: 17
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 5 23 41 56 
+Initial val: 27
+NumNodes set: 30
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 26 54 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 38 39 42 51 
+Initial val: 7
+NumNodes set: 11
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 5 18 43 61 
+Initial val: 20
+NumNodes set: 24
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 19 32 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 16 20 33 65 
+Initial val: 11
+NumNodes set: 15
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 24 28 39 62 
+Initial val: 24
+NumNodes set: 28
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 2 19 39 62 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 28 41 53 57 
+Initial val: 6
+NumNodes set: 10
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 5 23 58 64 
+Initial val: 18
+NumNodes set: 22
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 11 14 23 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 16 28 39 52 
+Initial val: 7
+NumNodes set: 11
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 36 43 58 65 
+Initial val: 18
+NumNodes set: 22
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 19 62 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 28 38 40 54 
+Initial val: 10
+NumNodes set: 14
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 23 32 57 65 
+Initial val: 21
+NumNodes set: 25
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 19 32 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 10 16 34 55 
+Initial val: 11
+NumNodes set: 15
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 26 47 50 65 
+Initial val: 23
+NumNodes set: 27
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 2 9 19 51 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 28 33 38 63 
+Initial val: 9
+NumNodes set: 13
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 14 23 46 66 
+Initial val: 21
+NumNodes set: 25
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 28 30 34 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 5 23 45 46 
+Initial val: 10
+NumNodes set: 14
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 17 43 54 65 
+Initial val: 22
+NumNodes set: 26
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 11 19 54 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 9 14 16 28 
+Initial val: 7
+NumNodes set: 11
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 5 32 42 47 
+Initial val: 16
+NumNodes set: 20
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 19 45 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 28 30 41 47 
+Initial val: 10
+NumNodes set: 13
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 16 18 42 65 
+Initial val: 25
+NumNodes set: 29
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 19 51 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 10 54 58 63 
+Initial val: 12
+NumNodes set: 16
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 23 35 57 65 
+Initial val: 25
+NumNodes set: 29
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 19 35 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 16 23 34 55 
+Initial val: 9
+NumNodes set: 13
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 2 14 28 66 
+Initial val: 22
+NumNodes set: 25
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 9 16 19 45 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 4 28 49 50 
+Initial val: 11
+NumNodes set: 15
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 40 42 52 58 
+Initial val: 21
+NumNodes set: 25
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 28 34 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 23 38 40 51 
+Initial val: 9
+NumNodes set: 13
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 5 19 33 56 
+Initial val: 24
+NumNodes set: 28
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 19 34 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 10 30 52 57 
+Initial val: 10
+NumNodes set: 14
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 20 51 59 65 
+Initial val: 21
+NumNodes set: 25
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 19 54 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 20 35 38 65 
+Initial val: 8
+NumNodes set: 12
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 23 46 63 67 
+Initial val: 19
+NumNodes set: 23
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 19 32 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 10 36 55 58 
+Initial val: 10
+NumNodes set: 13
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 16 18 42 65 
+Initial val: 20
+NumNodes set: 24
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 9 19 36 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 5 16 28 54 
+Initial val: 6
+NumNodes set: 10
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 8 30 32 42 
+Initial val: 14
+NumNodes set: 18
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 19 67 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 16 20 40 52 
+Initial val: 8
+NumNodes set: 12
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 23 36 59 65 
+Initial val: 22
+NumNodes set: 26
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 19 36 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 16 28 52 55 
+Initial val: 9
+NumNodes set: 13
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 23 34 38 39 
+Initial val: 21
+NumNodes set: 25
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 19 36 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 28 55 58 62 
+Initial val: 8
+NumNodes set: 12
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 5 17 23 41 
+Initial val: 23
+NumNodes set: 27
+15 15 0
+17 17 0
+18 18 0
+16 16 0
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 0 : 4 7 19 62 
+Initial val: 0
+NumNodes set: 4
+15 15 1
+17 17 1
+18 18 1
+16 16 1
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 1 : 16 30 33 42 
+Initial val: 10
+NumNodes set: 14
+15 15 2
+17 17 2
+18 18 2
+16 16 2
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Initialising fast UCB table... done
+Action in time step 2 : 28 49 50 58 
+Initial val: 16
+NumNodes set: 20
+Final average reward = 33.94
+Final avg standard error = 39.447
+Final avg time = 2.092
+Final standard error in time = 0.0114891
+----------------------------------------
+Begin PBS Epilogue Thu Mar 23 22:17:11 PDT 2017
+Job ID:           23025302.hpc-pbs1.hpcc.usc.edu
+Username:         bondi
+Group:            csci-ar
+Job Name:         1000WS1_ybw.pbs
+Session:          24567
+Limits:           neednodes=1:ppn=1,nodes=1:ppn=1,walltime=24:00:00
+Resources:        cput=00:01:46,energy_used=0,mem=10276kb,vmem=1498440kb,walltime=00:01:58
+Queue:            tambe
+Shared Access:    no
+Has MIC:          no
+removed '/scratch'
+End PBS Epilogue Thu Mar 23 22:17:11 PDT 2017
+----------------------------------------
