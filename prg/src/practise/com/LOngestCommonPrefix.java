@@ -4,31 +4,39 @@ import java.util.Arrays;
 
 public class LOngestCommonPrefix {
 		public static void main(String args[]){
-			String strs[] = {"VIVEK","VIBHOR","VIV"};
-			StringBuilder result = new StringBuilder();
-	        if (strs!= null && strs.length > 0){
-	        
-	            Arrays.sort(strs);
-	            for(String tmp : strs)
-	            		System.out.println(tmp);
-	            
-	            char [] a = strs[0].toCharArray();
-	            char [] b = strs[strs.length-1].toCharArray();
-	            for(char t : a)
-            		System.out.println(t);
-	            for(char t : b)
-            		System.out.println(t);
-	            
-	            for (int i = 0; i < a.length; i ++){
-	                if (i < b.length  && b[i] == a[i]){
-	                    result.append(b[i]);
-	                }
-	                else {
-	                   System.out.println("1: "+result);
-	                }
-	            }
-	            System.out.println("2: "+result);
+			String strs[] = {"aab","aac","aad"};
+			if (strs.length < 1 || strs == null) {
+	            return;
 	        }
+	        if (strs.length == 1) {
+	            return;
+	        }
+	        //find the shortest String
+	        int shortest = 0;
+	        int len = strs[0].length();
+	        for (int i = 1; i < strs.length; i++) {
+	            int curLen = strs[i].length();
+	            if (curLen < len) {
+	                len = curLen;
+	                shortest = i;
+	            }
+	        }
+	        
+	        //find the longest common prefix
+	        
+	        String sub = strs[shortest];
+	        System.out.println("Length of sub: "+sub);
+	        for (int i = 0; i < strs.length; i++) {
+	        	
+	        	System.out.println( "Result of "+ (strs[i].indexOf(sub) ));
+	            while (strs[i].indexOf(sub) != 0) {
+	                sub = sub.substring(0, sub.length()-1);
+	                System.out.println("Sub "+sub);
+	                
+	            }
+	        } 
+	        
+	        System.out.println("Result "+sub);
 	        
 		}
 
