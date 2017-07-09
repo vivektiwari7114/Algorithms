@@ -5,16 +5,17 @@ public class TinyUrl {
 
 	 String chars = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	 HashMap<String, String> map = new HashMap<>();
-	 int count = 1;
+	 int count = Integer.MAX_VALUE;
 	 
 	public static void main(String[] args) {
 		String longUrl_testcase1 = "https://leetcode.com/problems/design-tinyurl";
 		String longUrl_testcase2 = "https://leetcode.com/problems/design-tinyurl";
 		TinyUrl tinyObject = new TinyUrl();
 		System.out.println( tinyObject.encode(longUrl_testcase1) );
-		System.out.println( tinyObject.encode(longUrl_testcase2) );
+		//System.out.println( tinyObject.encode(longUrl_testcase2) );
 	}
 	
+	// Using Variable length  Encoding
 	 public  String getString() {
 	        int c = count;
 	        StringBuilder sb = new StringBuilder();
