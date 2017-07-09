@@ -16,16 +16,14 @@ public class BFS_DFS {
 		Graph g1   = new Graph(6);
 		int distance[] = new int[6];
 		
-		g1.addEdges(0,1); g1.addEdges(0,3);
-		g1.addEdges(1,0); g1.addEdges(1,2);g1.addEdges(1,4); 
-		g1.addEdges(2,5); g1.addEdges(2,1);
-		g1.addEdges(3,0); g1.addEdges(3,4);
-		g1.addEdges(4,1); g1.addEdges(4,5);g1.addEdges(4,3); 
-		g1.addEdges(5,2); g1.addEdges(5,4);
+		g1.addEdges(0,1); 
+		 g1.addEdges(1,2);g1.addEdges(1,4); 
+		g1.addEdges(2,5); 
+	
+		g1.addEdges(3,4);
 		//System.out.println(g1.countDistance(0, 5));
-		g1.DFS(0, distance);
-		for(int a : distance)
-				System.out.print(a);
+		g1.BFS(0);
+		
 		
 		
 		
@@ -50,12 +48,17 @@ class Graph{
 		boolean isVisited[] = new boolean[this.numberOfNode];
 		Queue<Integer> q1 = new LinkedList<Integer>();
 		
-		isVisited[source] = true;
 		q1.add(source);
 		
 		while( !q1.isEmpty() ){
 			
 			int curr = q1.remove();
+			if(isVisited[curr] == true){
+				System.out.println("CYCLE");
+				return; 
+			}
+			isVisited[curr] = true;
+			
 			System.out.println("Curent Node:"+ curr);
 			ArrayList<Integer> adjacent = this.edges[curr];
 			for(int i=0; i < adjacent.size(); i++){
@@ -64,7 +67,6 @@ class Graph{
 				if( isVisited[currNode] != true ){
 					System.out.println("Node Processed "+currNode);
 					q1.add(currNode);
-					isVisited[currNode] = true;
 				}
 			}
 		}
