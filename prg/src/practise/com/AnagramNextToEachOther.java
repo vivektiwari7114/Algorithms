@@ -1,7 +1,7 @@
 package practise.com;
 
 import java.util.*;
-// Adding comments to anagram program
+// Adding 
 public class AnagramNextToEachOther {
 
 	public static void main(String[] args) {
