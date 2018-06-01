@@ -9,6 +9,14 @@ public class AddTwoNumber {
 		
 		System.out.println( addTwo(num1, num2) );
 	}
+
+	/**
+	 *
+	 * Add two number without using + operator
+	 * Parameter: Take two parameter
+	 * Returns: sum of two number(a and b in this case)
+	 *
+	 */
 	public static int addTwo(int a , int b ){
 		if ( b == 0 )
 			return a;
