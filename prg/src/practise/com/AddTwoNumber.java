@@ -4,7 +4,7 @@ public class AddTwoNumber {
 	
 	public static void main(String args[]){
 		
-		int num1 = 17;
+		int num1 = 18;
 		int num2 = 3;
 		
 		System.out.println( addTwo(num1, num2) );
