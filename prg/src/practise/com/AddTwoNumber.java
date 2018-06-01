@@ -20,6 +20,7 @@ public class AddTwoNumber {
 	public static int addTwo(int a , int b ){
 		if ( b == 0 )
 			return a;
+		//Use of bit operator
 		int sum = a ^ b;
 		int carry = (a & b) << 1 ;
 		return addTwo(sum , carry);
