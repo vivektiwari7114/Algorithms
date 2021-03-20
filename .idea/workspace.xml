@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="23f26261-8095-4371-9d2a-6cf7aa69cf54" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/prg/.classpath" afterPath="$PROJECT_DIR$/solutions/.classpath" />
+      <change beforePath="$PROJECT_DIR$/prg/.idea/workspace.xml" afterPath="$PROJECT_DIR$/solutions/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.lock" afterPath="$PROJECT_DIR$/solutions/.metadata/.lock" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.log" afterPath="$PROJECT_DIR$/solutions/.metadata/.log" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.mylyn/repositories.xml.zip" afterPath="$PROJECT_DIR$/solutions/.metadata/.mylyn/repositories.xml.zip" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.indexes/properties.index" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.indexes/properties.index" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/org.eclipse.egit.core/GitProjectData.properties" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/org.eclipse.egit.core/GitProjectData.properties" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.logging.aeri.ide.prefs" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.logging.aeri.ide.prefs" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.j2ee.webservice.ui.prefs" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.j2ee.webservice.ui.prefs" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.core.prefs" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.core.prefs" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.ui.prefs" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.ui.prefs" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.ui.prefs" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.ui.prefs" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fdt" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fdt" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fdx" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fdx" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fnm" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fnm" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.frq" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.frq" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.nrm" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.nrm" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.tii" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.tii" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.tis" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.tis" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/segments.gen" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/segments.gen" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/segments_1" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/segments_1" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/write.lock" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/write.lock" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.fdt" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.fdt" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.fdx" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.fdx" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.fnm" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.fnm" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.frq" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.frq" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.nrm" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.nrm" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.tii" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.tii" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.tis" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.tis" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments.gen" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments.gen" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments_1" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments_1" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.7.0.20160321-2203.xml" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.7.0.20160321-2203.xml" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.rse.core/.log" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.rse.core/.log" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.rse.core/initializerMarks/org.eclipse.rse.internal.core.RSELocalConnectionInitializer.mark" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.rse.core/initializerMarks/org.eclipse.rse.internal.core.RSELocalConnectionInitializer.mark" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.guest-wireless-upc-1605-10-120-082-031_0/FP.local.files_0/node.properties" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.guest-wireless-upc-1605-10-120-082-031_0/FP.local.files_0/node.properties" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.guest-wireless-upc-1605-10-120-082-031_0/H.local_16/node.properties" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.guest-wireless-upc-1605-10-120-082-031_0/H.local_16/node.properties" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.guest-wireless-upc-1605-10-120-082-031_0/node.properties" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.guest-wireless-upc-1605-10-120-082-031_0/node.properties" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.rse.ui/.log" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.rse.ui/.log" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterPath="$PROJECT_DIR$/solutions/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" />
+      <change beforePath="$PROJECT_DIR$/prg/.metadata/version.ini" afterPath="$PROJECT_DIR$/solutions/.metadata/version.ini" />
+      <change beforePath="$PROJECT_DIR$/prg/.project" afterPath="$PROJECT_DIR$/solutions/.project" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/JavaConcepts/GoodOldGrandpa.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/JavaConcepts/InterfaceExampleOne.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/JavaConcepts/InterfaceOne.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/JavaConcepts/InterfaceThree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/JavaConcepts/InterfaceTwo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/JavaConcepts/TypeConversion.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.mylyn/repositories.xml.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.indexes/properties.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/org.eclipse.egit.core/GitProjectData.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.logging.aeri.ide.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.j2ee.webservice.ui.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.core.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.ui.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.ui.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fdt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fdx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fnm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.frq" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.nrm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.tii" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.tis" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/segments.gen" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/segments_1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/write.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.fdt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.fdx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.fnm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.frq" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.nrm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.tii" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.tis" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments.gen" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments_1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.7.0.20160321-2203.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.rse.core/.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.rse.core/initializerMarks/org.eclipse.rse.internal.core.RSELocalConnectionInitializer.mark" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.guest-wireless-upc-1605-10-120-082-031_0/FP.local.files_0/node.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.guest-wireless-upc-1605-10-120-082-031_0/H.local_16/node.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.guest-wireless-upc-1605-10-120-082-031_0/node.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.rse.ui/.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/.metadata/version.ini" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/AddTwoNumber.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Address.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Anagram.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/AnagramNextToEachOther.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/AnagramVariation.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/ArithmeticUsingAdd.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/ArrayReduction.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/ArrayWithMemoryLimits.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/BFS_DFS.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/BST.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/BasicGeneric.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/BinaryNodes.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/BinarySearch.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/BinarySearchTree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/BitMasking.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Box.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/BubbleSort.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Car.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/CheckWorkingSnap.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/CoinCHange.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/CoinChangeDP.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/CoinnChange.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/CollinearPoints.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/ColorSort.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/CombinationSumThree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/ConvertToHex.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/CountNumberOfTwo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/DataNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/DecodingWays.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/DiagnolTraverse.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/DoubleLinkedList.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/EditDistance.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/EfficientMaxDifferenceInTwoArray.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/EfficientSmallestDifference.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/EfficientTicTacToe.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/EightQueensProblem.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Employee.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/EnumImplementation.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/EquilibriumIndex.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/EquilibriumIndexEfficient.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/FIndMostNumberOfPoints.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/FairDieProblems.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Fibbonacci.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/FibonaaciLoop.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/FibonnaciSEriesRecursive.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/FillColor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/FindDifferenceOfK.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/FindElementInRotatedSorted.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/FindMax.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/FindMaxOfMinInArray.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/FindMissingChar.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/FindMissingElement.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/FloodFillAlgo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/FloodFillUsingQueue.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Frog.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/GameOfLife.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/GeneareP.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/GenerateEnglishPhrases.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/GenerateListOfAllNodes.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/GenerateParenthesis.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/GenericBounded.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/GenericExample.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/GoldmanSachs.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Graph.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/GraphsImplementation.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/GraphsImplementationClass.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/GroupAnagram.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/HitCounter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/ImplementArithmenticUsingAdd.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/ImplementBalancedTree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/ImplementBinarySearchTree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/ImplementEfficientQueueFromStack.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/ImplementSet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/ImplementTowerOfHanoi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/InSuccessor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/InsertionSort.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/IntegerToRoman.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/InterspersedString.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Intervals.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/IsRotation.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Iterators.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/JavaReflections.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Kadanes.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/LOngestCommonPrefix.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/LargestContinuousSum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Line.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/LineThroughSquare.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/LinesL.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/LinkedList.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/LivingPeople.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/LogestCommonSubstring.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/LongestPalindromeDP.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/MapMethodCount.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/MatrixMultiplication.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/MaxBinaryGap.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/MaxValue.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/MaximumNumberWithoutIfElse.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/MaximumSubarrayProblem.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/MaximumSumWithList.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/MeetingRoom2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/MemoizationCoinChange.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/MergeSort.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/MergeSortedArray.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/MinStack.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/MinStackImplementation.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/MindGame2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/MindGameCTCi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/MindGameVersion3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/MinimumDrop.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/MinimumNumberOfCoins.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/MinimumNumberOfJumps.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/MultipleOf357.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Multiply2Strings.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/MultiplyTwoString.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Name.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/NestedListWeightSum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/NextPermutation.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Node.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/NodeDL.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/NodeL.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/NodeS.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/NodeSM.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/NodeSt.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/NodeStack.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/NodeT.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/NumberOfBitsToConvertOneNumberToAnother.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/OneEditDistance.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Overload.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Overriding.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Pair.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/PalindromePartioning.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/ParseHealerOutput$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/ParseHealerOutput.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/PascalTriangleRecursion.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/PathFinder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Paths.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/PathsRecursion.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Permutation.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Person.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/PhoneNumber.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Pieces.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Point.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Points.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/PointsM.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Position.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/PowerSet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/PrintAnagramTogether.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Print_English_Equivalent.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/PriorityQueueImplementation$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/PriorityQueueImplementation.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/PrivateC.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/PrivateConstructor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Queens.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/QueueUsingStack.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/QueueUsingStackMemory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/QuickSort.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/RandomNumber.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/RandomNumber_EqualProbablity.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/RandomShuffleArray.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/ReadAFile.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/ReadTextFile.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/RecursiveCoinChange.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/RecursivePowerSet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/RecursiveTowerOfHanoi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/RemoveDuplicateWithoutAdditionalMemory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/RemoveSpaces.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/RepeatedString.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/ReplaceSpace.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Result.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Reverse.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/RoyalNames.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/SearchRange.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/SelectionSort.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/SequentialImplementationOfThreeStack.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/SetF.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/SetNumberToAnotherNumber.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/SetOfStacks.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/ShortestPath.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/SlidingWindowBruteForce.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/SmallestDifference.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Solution.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/SortColor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/SortStringInLex.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/SortingExample$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/SortingExample.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/SortingUsingStack.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/SpacesSearchStrings.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/SplitFunction.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Square.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/StackImplementation.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/StackInArray.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/StackJava.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/StackNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/StackSorting.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/State.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Store.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/StringMatching.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Student.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/StudentRecord.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Sum3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/SuperUglyNumber.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/SwapNumber.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/SwapOddAndEven.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/SwapOddAndEvenUsingLoop.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/TargetSum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/TernaryExpression.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/TheMindGame.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/ThreeStack.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/ThreeSum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/TicTac.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/TicTacEfficient.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/TicTacToe.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/TicTacToeEfficient.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/TopKNumber$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/TopKNumber.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/TowerOfHanoi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/TragetSum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/TreeN.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/TreeNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/TreeNodeT.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Trie.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/TrieNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/TryAndCatch.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Twitter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Van.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/Vehicle.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/WordCompDP.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/WordComposition.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/WordCompostion_Efficient.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/WordPredictor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/checkRotation$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/checkRotation.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/containWater.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/findingAnagram.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/generateAllPermutation.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/generateBrackets.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/isPrime.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/kmpAlgo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/longestPalindrome.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/makeZeroInMatrix.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/mathOperatorUsingAdd.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/pascal.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/prgrm1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/reverseString.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/rotateImage.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/rotateImageInplace.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/searchIndexes.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/strStr.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/subsetSUm.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/topKusongBucketSort.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/bin/practise/com/validWordSquare.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/JavaConcepts/InterfaceExampleOne.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/JavaConcepts/TypeConversion.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.mylyn/repositories.xml.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.indexes/properties.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/org.eclipse.egit.core/GitProjectData.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.logging.aeri.ide.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.j2ee.webservice.ui.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.core.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.ui.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.ui.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fdt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fdx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fnm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.frq" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.nrm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.tii" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.tis" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/segments.gen" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/segments_1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/write.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.fdt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.fdx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.fnm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.frq" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.nrm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.tii" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.tis" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments.gen" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments_1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.7.0.20160321-2203.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.rse.core/.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.rse.core/initializerMarks/org.eclipse.rse.internal.core.RSELocalConnectionInitializer.mark" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.guest-wireless-upc-1605-10-120-082-031_0/FP.local.files_0/node.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.guest-wireless-upc-1605-10-120-082-031_0/H.local_16/node.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.guest-wireless-upc-1605-10-120-082-031_0/node.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.rse.ui/.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/.metadata/version.ini" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prg/src/practise/com/PhoneNumber.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/prg.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/AddTwoNumber.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/AnagramNextToEachOther.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/AnagramVariation.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/ArithmeticUsingAdd.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/ArrayReduction.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/ArrayWithMemoryLimits.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/BFS_DFS.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/BST.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/BasicGeneric.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/BinarySearch.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/BinarySearchTree.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/BitMasking.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/BubbleSort.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/Car.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/CheckWorkingSnap.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/CoinCHange.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/CoinChangeDP.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/CoinnChange.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/CollinearPoints.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/ColorSort.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/CombinationSumThree.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/CompressString.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/ConvertToHex.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/CountNumberOfTwo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/DecodingWays.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/DiagnolTraverse.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/DoubleLinkedList.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/EditDistance.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/EfficientMaxDifferenceInTwoArray.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/EfficientSmallestDifference.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/EfficientTicTacToe.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/EightQueensProblem.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/Employee.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/EnumImplementation.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/EquilibriumIndex.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/EquilibriumIndexEfficient.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/FIndMostNumberOfPoints.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/FairDieProblems.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/Fibbonacci.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/FibonaaciLoop.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/FibonnaciSEriesRecursive.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/FillColor.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/FindDifferenceOfK.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/FindElementInRotatedSorted.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/FindMax.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/FindMaxOfMinInArray.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/FindMissingChar.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/FindMissingElement.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/FloodFillAlgo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/FloodFillUsingQueue.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/Frog.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/GameOfLife.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/GeneareP.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/GenerateEnglishPhrases.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/GenerateListOfAllNodes.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/GenerateParenthesis.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/GenericBounded.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/GoldmanSachs.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/GraphsImplementation.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/GroupAnagram.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/HitCounter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/ImplementArithmenticUsingAdd.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/ImplementBalancedTree.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/ImplementBinarySearchTree.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/ImplementEfficientQueueFromStack.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/ImplementSet.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/ImplementTowerOfHanoi.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/InSuccessor.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/InsertionSort.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/IntegerToRoman.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/InterspersedString.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/IsRotation.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/Iterators.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/JavaReflections.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/Kadanes.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/LOngestCommonPrefix.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/LargestContinuousSum.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/LineThroughSquare.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/LinkedList.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/LivingPeople.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/LogestCommonSubstring.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/LongestPalindromeDP.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/MapMethodCount.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/MatrixMultiplication.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/MaxBinaryGap.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/MaxValue.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/MaximumNumberWithoutIfElse.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/MaximumSubarrayProblem.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/MaximumSumWithList.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/MeetingRoom2.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/MemoizationCoinChange.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/MergeSort.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/MergeSortedArray.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/MinStack.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/MinStackImplementation.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/MindGame2.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/MindGameCTCi.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/MindGameVersion3.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/MinimumDrop.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/MinimumNumberOfCoins.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/MinimumNumberOfJumps.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/MultipleOf357.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/Multiply2Strings.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/MultiplyTwoString.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/NestedListWeightSum.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/NextPermutation.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/NumberOfBitsToConvertOneNumberToAnother.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/OneEditDistance.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/Overload.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/Overriding.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/PalindromePartioning.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/ParseHealerOutput.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/ParserGreedy.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/PascalTriangleRecursion.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/PathFinder.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/Paths.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/PathsRecursion.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/Permutation.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/Person.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/PowerSet.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/PredictTheWinner.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/PrintAnagramTogether.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/Print_English_Equivalent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/PriorityQueueImplementation.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/PrivateConstructor.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/Queens.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/QueueUsingStack.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/QueueUsingStackMemory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/QuickSort.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/RandomNumber.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/RandomNumber_EqualProbablity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/RandomShuffleArray.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/ReadAFile.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/ReadTextFile.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/RecursiveCoinChange.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/RecursivePowerSet.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/RecursiveTowerOfHanoi.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/RemoveDuplicateWithoutAdditionalMemory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/RemoveSpaces.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/RepeatedString.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/ReplaceSpace.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/Reverse.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/RoyalNames.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/SearchRange.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/SelectionSort.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/SequentialImplementationOfThreeStack.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/SetNumberToAnotherNumber.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/SetOfStacks.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/ShortestPath.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/SlidingWindowBruteForce.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/SmallestDifference.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/Solution.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/SortColor.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/SortStringInLex.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/SortingExample.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/SortingUsingStack.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/SpacesSearchStrings.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/SplitFunction.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/StackImplementation.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/StackInArray.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/StackJava.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/StackSorting.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/StringMatching.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/Sum3.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/SuperUglyNumber.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/SwapNumber.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/SwapOddAndEven.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/SwapOddAndEvenUsingLoop.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/TargetSum.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/TargetSumWithOperators.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/TernaryExpression.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/TheMindGame.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/ThreeStack.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/ThreeSum.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/TicTacToe.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/TicTacToeEfficient.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/TinyUrl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/TopKNumber.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/TowerOfHanoi.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/TowerOfHanoiRecursive.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/TragetSum.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/Trie.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/TryAndCatch.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/Twitter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/WordCompDP.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/WordComposition.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/WordCompostion_Efficient.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/WordPredictor.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/checkRotation.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/containWater.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/findingAnagram.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/generateAllPermutation.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/generateBrackets.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/isPrime.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/kmpAlgo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/longestPalindrome.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/makeBigTxt.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/makeZeroInMatrix.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/mathOperatorUsingAdd.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/pascal.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/prgrm1.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/reverseString.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/rotateImage.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/rotateImageInplace.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/searchIndexes.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/strStr.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/subsetSUm.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/topKusongBucketSort.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/algorithms/com/validWordSquare.java" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="18" />
+    <option name="y" value="23" />
+    <option name="width" value="1400" />
+    <option name="height" value="775" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="solutions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Algorithms" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23f26261-8095-4371-9d2a-6cf7aa69cf54" name="Default" comment="" />
+      <created>1616218498813</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616218498813</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="18" y="23" width="1400" height="775" extended-state="0" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
